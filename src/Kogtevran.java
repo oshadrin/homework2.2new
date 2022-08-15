@@ -78,7 +78,6 @@ public class Kogtevran extends Hogwarts {
     }
 
     public String toString() {
-        int var10000 = this.um;
-        return "Kogtevran{um=" + var10000 + ", mudrost=" + this.mudrost + ", ostroumie=" + this.ostroumie + ", tvorchestvo=" + this.tvorchestvo + ", transgress=" + this.getTransgress() + ", doMagic=" + this.getDoMagic() + "}";
+        return "Kogtevran{um=" + this.um + ", mudrost=" + this.mudrost + ", ostroumie=" + this.ostroumie + ", tvorchestvo=" + this.tvorchestvo + ", transgress=" + this.getTransgress() + ", doMagic=" + this.getDoMagic() + "}";
     }
 }

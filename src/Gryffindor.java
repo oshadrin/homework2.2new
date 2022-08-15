@@ -63,7 +63,6 @@ public class Gryffindor extends Hogwarts {
     }
 
     public String toString() {
-        int var10000 = this.blagorodstvo;
-        return "Gryffindor{blagorodstvo=" + var10000 + ", chest=" + this.chest + ", hrabrost=" + this.hrabrost + ", transgress=" + this.getTransgress() + ", doMagic=" + this.getDoMagic() + "}";
+        return "Gryffindor{blagorodstvo=" + this.blagorodstvo + ", chest=" + this.chest + ", hrabrost=" + this.hrabrost + ", transgress=" + this.getTransgress() + ", doMagic=" + this.getDoMagic() + "}";
     }
 }

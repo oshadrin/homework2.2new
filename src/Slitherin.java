@@ -63,7 +63,6 @@ public class Slitherin extends Hogwarts {
     }
 
     public String toString() {
-        int var10000 = this.hitrost;
-        return "Slitherin{hitrost=" + var10000 + ", reshitelnost=" + this.reshitelnost + ", ambitsioznost=" + this.ambitsioznost + ", transgress=" + this.getTransgress() + ", doMagic=" + this.getDoMagic() + "}";
+        return "Slitherin{hitrost=" + this.hitrost + ", reshitelnost=" + this.reshitelnost + ", ambitsioznost=" + this.ambitsioznost + ", transgress=" + this.getTransgress() + ", doMagic=" + this.getDoMagic() + "}";
     }
 }

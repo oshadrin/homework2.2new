@@ -63,7 +63,6 @@ public class Puffenduy extends Hogwarts {
     }
 
     public String toString() {
-        int var10000 = this.trudolubie;
-        return "Puffenduy{trudolubie=" + var10000 + ", vernost=" + this.vernost + ", chestnost=" + this.chestnost + ", transgress=" + this.getTransgress() + ", doMagic=" + this.getDoMagic() + "}";
+        return "Puffenduy{trudolubie=" + this.trudolubie + ", vernost=" + this.vernost + ", chestnost=" + this.chestnost + ", transgress=" + this.getTransgress() + ", doMagic=" + this.getDoMagic() + "}";
     }
 }
